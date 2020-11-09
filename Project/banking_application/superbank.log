@@ -2730,3 +2730,41 @@ Please enter a number between 1-6 only!
 [INFO] 	com.bank.main.UserMain		4) Transfer money to another account		08-November-2020 Sunday EST 23:57:04	
 [INFO] 	com.bank.main.UserMain		5) Accept a money transfer		08-November-2020 Sunday EST 23:57:04	
 [INFO] 	com.bank.main.UserMain		6) Exit the customer menu.		08-November-2020 Sunday EST 23:57:04	
+[INFO] 	com.bank.main.UserMain		Welcome to Super Bank!		09-November-2020 Monday EST 00:30:29	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		09-November-2020 Monday EST 00:30:29	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		09-November-2020 Monday EST 00:30:29	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		09-November-2020 Monday EST 00:30:29	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		09-November-2020 Monday EST 00:30:29	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		09-November-2020 Monday EST 00:30:29	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		09-November-2020 Monday EST 00:30:30	
+[INFO] 	com.bank.main.UserMain		Username cannot be found. Please re-enter your username, or enter q to quit		09-November-2020 Monday EST 00:30:33	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		09-November-2020 Monday EST 00:30:34	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		09-November-2020 Monday EST 00:30:36	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		09-November-2020 Monday EST 00:30:36	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		09-November-2020 Monday EST 00:30:36	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		09-November-2020 Monday EST 00:30:36	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		09-November-2020 Monday EST 00:30:36	
+[INFO] 	com.bank.main.UserMain		Welcome to Super Bank!		09-November-2020 Monday EST 00:31:22	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		09-November-2020 Monday EST 00:31:22	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		09-November-2020 Monday EST 00:31:22	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		09-November-2020 Monday EST 00:31:22	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		09-November-2020 Monday EST 00:31:22	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		09-November-2020 Monday EST 00:31:22	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		09-November-2020 Monday EST 00:31:27	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		09-November-2020 Monday EST 00:31:27	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		09-November-2020 Monday EST 00:31:27	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		09-November-2020 Monday EST 00:31:27	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		09-November-2020 Monday EST 00:31:27	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		09-November-2020 Monday EST 00:31:27	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		09-November-2020 Monday EST 00:31:28	
+[INFO] 	com.bank.main.UserMain		Username cannot be found. Please re-enter your username, or enter q to quit		09-November-2020 Monday EST 00:31:31	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		09-November-2020 Monday EST 00:31:32	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		09-November-2020 Monday EST 00:31:32	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		09-November-2020 Monday EST 00:31:32	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		09-November-2020 Monday EST 00:31:32	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		09-November-2020 Monday EST 00:31:32	

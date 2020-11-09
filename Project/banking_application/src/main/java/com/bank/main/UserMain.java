@@ -133,6 +133,10 @@ public class UserMain {
 						}
 					
 					}
+					//exits to main menu if user quit
+					if (username.toLowerCase().equals("q")) {
+						break;
+					}
 					
 					log.info("Please enter your password:");
 					password = scanner.nextLine();
