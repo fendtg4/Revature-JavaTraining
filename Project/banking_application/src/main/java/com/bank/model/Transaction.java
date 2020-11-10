@@ -1,18 +1,24 @@
 package com.bank.model;
 
+import java.math.BigDecimal;
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 public class Transaction {
 
 	private int transactionId;
+	BigDecimal transactionAmount;
 	private String transactionDescription;
-	private LocalDateTime transactionTime;
+	private Timestamp transactionTime;
 	private int accountId;
+	private String status;
 	
-	public Transaction(String transactionDescription, LocalDateTime transactionTime) {
-		super();
+	public Transaction(BigDecimal transactionAmount, String transactionDescription, Timestamp transactionTime, int accountId, String status) {
+		this.transactionAmount = transactionAmount;
 		this.transactionDescription = transactionDescription;
 		this.transactionTime = transactionTime;
+		this.accountId = accountId;
+		this.status = status;
 	}
 
 	public int getTransactionId() {
@@ -23,6 +29,15 @@ public class Transaction {
 		this.transactionId = transactionId;
 	}
 
+	
+	public BigDecimal getTransactionAmount() {
+		return transactionAmount;
+	}
+
+	public void setTransactionAmount(BigDecimal transactionAmount) {
+		this.transactionAmount = transactionAmount;
+	}
+
 	public String getTransactionDescription() {
 		return transactionDescription;
 	}
@@ -31,11 +46,13 @@ public class Transaction {
 		this.transactionDescription = transactionDescription;
 	}
 
-	public LocalDateTime getTransactionTime() {
+	
+
+	public Timestamp getTransactionTime() {
 		return transactionTime;
 	}
 
-	public void setTransactionTime(LocalDateTime transactionTime) {
+	public void setTransactionTime(Timestamp transactionTime) {
 		this.transactionTime = transactionTime;
 	}
 
@@ -45,6 +62,16 @@ public class Transaction {
 
 	public void setAccountId(int accountId) {
 		this.accountId = accountId;
+	}
+	
+	
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
 	@Override

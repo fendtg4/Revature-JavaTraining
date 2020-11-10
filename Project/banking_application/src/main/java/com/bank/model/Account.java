@@ -8,9 +8,10 @@ public class Account {
 	private BigDecimal balance;
 	private int customerId;
 	
-	public Account(BigDecimal balance) {
-		super();
+	public Account(int accountId, BigDecimal balance, int customerId) {
+		this.accountId = accountId;
 		this.balance = balance;
+		this.customerId = customerId;
 	}
 
 	public int getAccountId() {

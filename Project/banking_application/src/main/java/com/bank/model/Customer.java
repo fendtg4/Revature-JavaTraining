@@ -13,10 +13,7 @@ public class Customer extends User {
 	private int userId;
 	private int customerId;
 	
-	public Customer() {
-		super();
-	}
-
+	
 
 	public Customer(User user) {
 		this.username = user.getUsername();
@@ -27,10 +24,11 @@ public class Customer extends User {
 		this.userId = user.getUserId();
 	}
 
+	
+	
 	public String getUsername() {
 		return username;
 	}
-
 
 
 
@@ -40,11 +38,9 @@ public class Customer extends User {
 
 
 
-
 	public String getPassword() {
 		return password;
 	}
-
 
 
 
@@ -59,9 +55,11 @@ public class Customer extends User {
 	}
 
 
+
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+
 
 
 	public String getLastName() {
@@ -69,9 +67,11 @@ public class Customer extends User {
 	}
 
 
+
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
 
 
 	public String getEmail() {
@@ -79,17 +79,25 @@ public class Customer extends User {
 	}
 
 
+
 	public void setEmail(String email) {
 		this.email = email;
 	}
 
+
+
 	public int getUserId() {
 		return userId;
 	}
-	
+
+
+
 	public void setUserId(int userId) {
 		this.userId = userId;
 	}
+
+
+
 	public int getCustomerId() {
 		return customerId;
 	}

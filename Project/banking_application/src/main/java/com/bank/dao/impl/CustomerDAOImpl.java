@@ -30,7 +30,8 @@ public class CustomerDAOImpl implements CustomerDAO {
 				return true;
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 		return false;
 	}
@@ -42,19 +43,24 @@ public class CustomerDAOImpl implements CustomerDAO {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, newCustomer.getUsername());
 			preparedStatement.setString(2, newCustomer.getPassword());
-			log.debug(newCustomer.getFirstName());
 			preparedStatement.setString(3, newCustomer.getFirstName());
 			preparedStatement.setString(4, newCustomer.getLastName());
 			preparedStatement.setString(5, newCustomer.getEmail());
 			preparedStatement.setInt(6, newCustomer.getUserId());
 			accountCreationSuccess = preparedStatement.executeUpdate();
-			return accountCreationSuccess;
+			if (accountCreationSuccess == 1) {
+				return accountCreationSuccess;
+			}
+			else {
+				throw new BusinessException("Error, a customer account was not created!");
+			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 			
 		}
 		
-		return 0;
+		
 	}
 	@Override
 	public void insertCustomerId(Customer customer) throws BusinessException {
@@ -66,8 +72,12 @@ public class CustomerDAOImpl implements CustomerDAO {
 			if (resultSet.next()) {
 				customer.setCustomerId(resultSet.getInt("customer_id"));
 			}
+			else {
+				throw new BusinessException("Error, could not insert customer id");
+			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 			}
 		
 		

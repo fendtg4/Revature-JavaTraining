@@ -32,13 +32,19 @@ public class UserDAOImpl implements UserDAO {
 			preparedStatement.setString(5, newUser.getEmail());
 			preparedStatement.setString(6, newUser.getUserType());
 			accountCreationSuccess = preparedStatement.executeUpdate();
-			return accountCreationSuccess;
+			if (accountCreationSuccess ==1) {
+				return accountCreationSuccess;
+			}
+			else {
+				throw new BusinessException("Error, a user account could not be created!");
+			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 			
 		}
 		
-		return 0;
+		
 	}
 
 	@Override
@@ -54,7 +60,8 @@ public class UserDAOImpl implements UserDAO {
 				return true;
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 		return false;
 	}
@@ -75,7 +82,8 @@ public class UserDAOImpl implements UserDAO {
 			}
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 		return false;
 	}
@@ -98,7 +106,8 @@ public class UserDAOImpl implements UserDAO {
 			
 		
 		} catch (ClassNotFoundException | SQLException e) {
-		log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 		return false;
 	}
@@ -119,11 +128,13 @@ public class UserDAOImpl implements UserDAO {
 				resultSet.getInt("user_id");
 				return user;
 			}
-	
+			else {
+				throw new BusinessException("Error, a user could not be retrieved from this username!");
+			}
 		}  catch (ClassNotFoundException | SQLException e) {
-		log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
-		return user;
 	
 	}
 
@@ -139,8 +150,12 @@ public class UserDAOImpl implements UserDAO {
 			if (resultSet.next()) {
 				user.setUserId(resultSet.getInt("user_id"));
 			}
+			else {
+				throw new BusinessException("Error retrieving information from the database!");
+			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
+			log.error(e);//Take off when finished
+			throw new BusinessException("An internal error occured! Please contact a system administrator");
 			}
 		
 	}

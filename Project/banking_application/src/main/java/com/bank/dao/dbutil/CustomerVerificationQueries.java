@@ -1,4 +1,4 @@
-package com.bank.dao.dbutil;
+ package com.bank.dao.dbutil;
 
 public class CustomerVerificationQueries {
 
