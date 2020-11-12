@@ -13,7 +13,7 @@ public class CustomerVerificationServiceImpl implements CustomerVerificationServ
 	private static Logger log = Logger.getLogger(CustomerVerificationServiceImpl.class);
 	CustomerDAO customerDAO = new CustomerDAOImpl();
 	@Override
-	public boolean checkIfCustomerExists(String username) throws BusinessException {
+	public boolean checkIfCustomerAccountExists(String username) throws BusinessException {
 		
 	
 		if (username.isEmpty()) {
@@ -24,7 +24,33 @@ public class CustomerVerificationServiceImpl implements CustomerVerificationServ
 		}
 		return false;
 	}
+	@Override
+	public int getCustomerIdFromUsername(String username) throws BusinessException {
+		
+		int customerId = 0;
+		if (username.isEmpty()) {
+			throw new BusinessException("You must input a username!");
+		}
+		
+		else {
+			customerId = customerDAO.getCustomerIdFromUsername(username);
+			return customerId;
+		}
+		
+	}
 	
+	public String getCustomerUsernameFromId(int customerId) throws BusinessException {
+		
+		String username = null;
+		if (customerId<=0) {
+			throw new BusinessException("You must input a positive ID!");
+		}
+		else {
+			username = customerDAO.getCustomerUsernameFromId(customerId);
+			return username;
+		}
+		
+	}
 	
 	
 }

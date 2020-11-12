@@ -39,7 +39,6 @@ public class UserDAOImpl implements UserDAO {
 				throw new BusinessException("Error, a user account could not be created!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
 			throw new BusinessException("An internal error occured! Please contact a system administrator");
 			
 		}
@@ -60,7 +59,6 @@ public class UserDAOImpl implements UserDAO {
 				return true;
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
 			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 		return false;
@@ -82,7 +80,6 @@ public class UserDAOImpl implements UserDAO {
 			}
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
 			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 		return false;
@@ -106,7 +103,6 @@ public class UserDAOImpl implements UserDAO {
 			
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
 			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 		return false;
@@ -132,13 +128,12 @@ public class UserDAOImpl implements UserDAO {
 				throw new BusinessException("Error, a user could not be retrieved from this username!");
 			}
 		}  catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
 			throw new BusinessException("An internal error occured! Please contact a system administrator");
 		}
 	
 	}
 
-	//inserts user id from database into user object
+	//Inserts user id from database into user object
 	@Override
 	public void insertUserId(User user) throws BusinessException {
 		
@@ -154,7 +149,6 @@ public class UserDAOImpl implements UserDAO {
 				throw new BusinessException("Error retrieving information from the database!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
 			throw new BusinessException("An internal error occured! Please contact a system administrator");
 			}
 		

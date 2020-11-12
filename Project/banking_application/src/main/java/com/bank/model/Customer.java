@@ -14,7 +14,18 @@ public class Customer extends User {
 	private int customerId;
 	
 	
+	//constructor only for testing purposes
+	public Customer(int customerId, String username, String password, String firstName, String lastName, String email, int userId) {
+		this.customerId = customerId;
+		this.username = username;
+		this.password = password;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.userId = userId;
+	}
 
+	//constructor used in program
 	public Customer(User user) {
 		this.username = user.getUsername();
 		this.password = user.getPassword();

@@ -11,8 +11,10 @@ import com.bank.dao.CustomerDAO;
 import com.bank.dao.dbutil.CustomerAccountCreationQueries;
 import com.bank.dao.dbutil.CustomerVerificationQueries;
 import com.bank.dao.dbutil.PostgresSqlConnection;
+import com.bank.dao.dbutil.UserVerificationQueries;
 import com.bank.exception.BusinessException;
 import com.bank.model.Customer;
+import com.bank.model.User;
 
 public class CustomerDAOImpl implements CustomerDAO {
 
@@ -30,8 +32,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 				return true;
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
-			throw new BusinessException("An internal error occured! Please contact a system administrator");
+			throw new BusinessException("An internal error occurred! Please contact a system administrator");
 		}
 		return false;
 	}
@@ -55,8 +56,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 				throw new BusinessException("Error, a customer account was not created!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
-			throw new BusinessException("An internal error occured! Please contact a system administrator");
+			throw new BusinessException("An internal error occurred! Please contact a system administrator");
 			
 		}
 		
@@ -76,13 +76,52 @@ public class CustomerDAOImpl implements CustomerDAO {
 				throw new BusinessException("Error, could not insert customer id");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);//Take off when finished
-			throw new BusinessException("An internal error occured! Please contact a system administrator");
+			throw new BusinessException("An internal error occurred! Please contact a system administrator");
 			}
 		
 		
 	}
-
+	@Override
+	public int getCustomerIdFromUsername(String username) throws BusinessException {
+		
+		int customerId = 0;
+		try (Connection connection = PostgresSqlConnection.getConnection()) {
+			String sql = CustomerVerificationQueries.GETCUSTOMERIDFROMUSERNAME;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, username);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {	
+				customerId = resultSet.getInt("customer_id");
+				return customerId;
+			}
+			else {
+				throw new BusinessException("Error, a customer ID could not be retrieved from this username!");
+			}
+		}  catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("An internal error occurred! Please contact a system administrator");
+		}
+	
+	}
+		
+	public String getCustomerUsernameFromId(int customerId) throws BusinessException {
+		
+		String username = null;
+		try (Connection connection = PostgresSqlConnection.getConnection()) {
+			String sql = CustomerVerificationQueries.GETCUSTOMERUSERNAMEFROMID;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, customerId);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {	
+				username = resultSet.getString("username");
+				return username;
+			}
+			else {
+				throw new BusinessException("Error, a customer ID could not be retrieved from this username!");
+			}
+		}  catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("An internal error occurred! Please contact a system administrator");
+		}
+	}
 
 	
 }

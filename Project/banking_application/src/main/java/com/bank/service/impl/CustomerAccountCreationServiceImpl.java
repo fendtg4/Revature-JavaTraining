@@ -31,7 +31,7 @@ public class CustomerAccountCreationServiceImpl implements CustomerAccountCreati
 		
 	}
 	
-	//inserts user id from database into a user object
+		//Inserts user id from database into a user object
 		@Override
 		public void insertCustomerId(Customer customer) throws BusinessException {
 			

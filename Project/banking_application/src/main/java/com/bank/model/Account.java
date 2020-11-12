@@ -42,6 +42,18 @@ public class Account {
 	public String toString() {
 		return "Account [accountId=" + accountId + ", balance=" + balance + ", customerId=" + customerId + "]";
 	}
-	
-	
+
+	//Overridden for JUnit testing purposes
+	@Override
+	public boolean equals(Object o) {
+		if (o== this) {
+			return true;
+		}
+		if (((Account) o).getAccountId() == this.getAccountId()) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 }

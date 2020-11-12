@@ -30,7 +30,7 @@ public class UserAccountCreationServiceImpl implements UserAccountCreationServic
 		}
 		
 	}
-	//inserts user id from database into a user object
+	//Inserts user id from database into a user object
 	@Override
 	public void insertUserId(User user) throws BusinessException {
 		

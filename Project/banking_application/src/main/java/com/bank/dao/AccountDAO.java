@@ -14,5 +14,9 @@ public interface AccountDAO {
 	public Account getAccountFromAccountId(int accountId) throws BusinessException;
 	public int deposit(int accountId, BigDecimal depositAmount, BigDecimal currentBalance)throws BusinessException;
 	public int withdraw(int accountId, BigDecimal withdrawalAmount, BigDecimal currentBalance)throws BusinessException;
+	public boolean checkIfAccountExists(int accountId) throws BusinessException;
+	public boolean checkIfAccountBelongsToCustomer(int accountId, int customerId) throws BusinessException;
+	public BigDecimal receiveTransfer(int accountId) throws BusinessException;
+	public void getAccountsFromCustomerId(int customerId) throws BusinessException;
 	
 }

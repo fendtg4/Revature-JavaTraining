@@ -9,7 +9,7 @@ public class PostgresSqlConnection {
 	private static Connection connection;
 
 	private PostgresSqlConnection() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static Connection getConnection() throws ClassNotFoundException, SQLException {
