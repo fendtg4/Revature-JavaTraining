@@ -9556,3 +9556,251 @@ Please enter a number between 1-3 only!
 [INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 03:48:29	
 [INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 03:48:29	
 [INFO] 	com.bank.main.UserMain		Thank you for visiting us at Super Bank.		12-November-2020 Thursday EST 03:48:30	
+[INFO] 	com.bank.main.UserMain		Welcome to Super Bank!		12-November-2020 Thursday EST 04:22:29	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:22:29	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:22:29	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:22:29	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:22:29	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:22:29	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:22:32	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		12-November-2020 Thursday EST 04:22:34	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		Welcome to the Customer Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		1) Apply for a new Bank Account.		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		2) View the balance of an existing account.		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		3) Make a deposit or withdrawal to an existing account.		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		4) Transfer money to another account		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		5) Accept a money transfer		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		6) Exit the customer menu.		12-November-2020 Thursday EST 04:22:35	
+[INFO] 	com.bank.main.UserMain		Please enter the account ID for the account you wish to make a transaction.		12-November-2020 Thursday EST 04:22:41	
+[INFO] 	com.bank.main.UserMain		Do you wish to make a deposit or withdrawal? Enter 1 for a deposit or 2 for a withdrawal.		12-November-2020 Thursday EST 04:22:43	
+[INFO] 	com.bank.main.UserMain		Please input either 1 for deposit or 2 for withdrawal.		12-November-2020 Thursday EST 04:22:45	
+[INFO] 	com.bank.main.UserMain		How much would you like to deposit?		12-November-2020 Thursday EST 04:22:47	
+[INFO] 	com.bank.main.UserMain		Successfully deposited! Your new balance is 10000.00.
+		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		Welcome to the Customer Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		1) Apply for a new Bank Account.		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		2) View the balance of an existing account.		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		3) Make a deposit or withdrawal to an existing account.		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		4) Transfer money to another account		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		5) Accept a money transfer		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		6) Exit the customer menu.		12-November-2020 Thursday EST 04:22:49	
+[INFO] 	com.bank.main.UserMain		I hope our service was satisfactory!
+		12-November-2020 Thursday EST 04:22:50	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:22:50	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:22:50	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:22:50	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:22:50	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:22:50	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:22:51	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		12-November-2020 Thursday EST 04:22:52	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:22:52	
+[INFO] 	com.bank.main.UserMain		Welcome to the Employee Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:22:52	
+[INFO] 	com.bank.main.UserMain		1) Approve or reject an account.		12-November-2020 Thursday EST 04:22:52	
+[INFO] 	com.bank.main.UserMain		2) View a customer's bank accounts.		12-November-2020 Thursday EST 04:22:52	
+[INFO] 	com.bank.main.UserMain		3) View a log of all transactions.		12-November-2020 Thursday EST 04:22:52	
+[INFO] 	com.bank.main.UserMain		4) Exit the employee menu.		12-November-2020 Thursday EST 04:22:52	
+[INFO] 	com.bank.main.UserMain		Below is a list of all transactions:
+		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 101  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:40:12.095 Account ID: 101 Status: APPROVED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 103  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:42:02.906 Account ID: 103 Status: PENDING		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 104  Transaction Amount: 10000.00 Transaction Time: 2020-11-12 03:42:33.397 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 102  Transaction Amount: 500.00 Transaction Time: 2020-11-12 03:41:18.238 Account ID: 102 Status: APPROVED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 105  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:47:12.196 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 107  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:47:20.93 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 106  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:47:12.338 Account ID: 102 Status: ACCEPTED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 108  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:47:20.966 Account ID: 102 Status: ACCEPTED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 109  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 04:22:49.378 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.main.UserMain		Welcome to the Employee Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.main.UserMain		1) Approve or reject an account.		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.main.UserMain		2) View a customer's bank accounts.		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.main.UserMain		3) View a log of all transactions.		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.main.UserMain		4) Exit the employee menu.		12-November-2020 Thursday EST 04:22:55	
+[INFO] 	com.bank.main.UserMain		Thank you for choosing to work at Super Bank.
+		12-November-2020 Thursday EST 04:25:20	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:25:20	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:25:20	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:25:20	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:25:20	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:25:20	
+[INFO] 	com.bank.main.UserMain		Thank you for visiting us at Super Bank.		12-November-2020 Thursday EST 04:25:20	
+[INFO] 	com.bank.main.UserMain		Welcome to Super Bank!		12-November-2020 Thursday EST 04:25:26	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:25:26	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:25:26	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:25:26	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:25:26	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:25:26	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:25:27	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		12-November-2020 Thursday EST 04:25:28	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:25:28	
+[INFO] 	com.bank.main.UserMain		Welcome to the Employee Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:25:28	
+[INFO] 	com.bank.main.UserMain		1) Approve or reject an account.		12-November-2020 Thursday EST 04:25:28	
+[INFO] 	com.bank.main.UserMain		2) View a customer's bank accounts.		12-November-2020 Thursday EST 04:25:28	
+[INFO] 	com.bank.main.UserMain		3) View a log of all transactions.		12-November-2020 Thursday EST 04:25:28	
+[INFO] 	com.bank.main.UserMain		4) Exit the employee menu.		12-November-2020 Thursday EST 04:25:28	
+[INFO] 	com.bank.main.UserMain		Below is a list of all transactions:
+		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 101  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:40:12.095 Account ID: 101 Status: APPROVED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 102  Transaction Amount: 500.00 Transaction Time: 2020-11-12 03:41:18.238 Account ID: 102 Status: APPROVED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 103  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:42:02.906 Account ID: 103 Status: PENDING		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 104  Transaction Amount: 10000.00 Transaction Time: 2020-11-12 03:42:33.397 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 105  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:47:12.196 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 106  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:47:12.338 Account ID: 102 Status: ACCEPTED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 107  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:47:20.93 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 108  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:47:20.966 Account ID: 102 Status: ACCEPTED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 109  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 04:22:49.378 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.main.UserMain		Welcome to the Employee Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.main.UserMain		1) Approve or reject an account.		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.main.UserMain		2) View a customer's bank accounts.		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.main.UserMain		3) View a log of all transactions.		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.main.UserMain		4) Exit the employee menu.		12-November-2020 Thursday EST 04:25:31	
+[INFO] 	com.bank.main.UserMain		Welcome to Super Bank!		12-November-2020 Thursday EST 04:26:16	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:26:16	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:26:16	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:26:16	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:26:16	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:26:16	
+[WARN] 	com.bank.main.UserMain		
+Please enter a number between 1-3 only!
+		12-November-2020 Thursday EST 04:26:19	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:26:19	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:26:19	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:26:19	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:26:19	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:26:19	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:26:20	
+[INFO] 	com.bank.main.UserMain		Username cannot be found. Please re-enter your username, or enter q to quit		12-November-2020 Thursday EST 04:26:22	
+[INFO] 	com.bank.main.UserMain		Username cannot be found. Please re-enter your username, or enter q to quit		12-November-2020 Thursday EST 04:26:23	
+[INFO] 	com.bank.main.UserMain		Username cannot be found. Please re-enter your username, or enter q to quit		12-November-2020 Thursday EST 04:26:24	
+[INFO] 	com.bank.main.UserMain		Username cannot be found. Please re-enter your username, or enter q to quit		12-November-2020 Thursday EST 04:26:25	
+[INFO] 	com.bank.main.UserMain		Username cannot be found. Please re-enter your username, or enter q to quit		12-November-2020 Thursday EST 04:26:26	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:26:27	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:26:27	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:26:27	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:26:27	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:26:27	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:26:31	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		12-November-2020 Thursday EST 04:26:33	
+[INFO] 	com.bank.main.UserMain		The password entered did not match your username. Please re-enter your password, or enter q to quit.		12-November-2020 Thursday EST 04:26:34	
+[INFO] 	com.bank.main.UserMain		The password entered did not match your username. Please re-enter your password, or enter q to quit.		12-November-2020 Thursday EST 04:26:36	
+[INFO] 	com.bank.main.UserMain		The password entered did not match your username. Please re-enter your password, or enter q to quit.		12-November-2020 Thursday EST 04:26:37	
+[INFO] 	com.bank.main.UserMain		The password entered did not match your username. Please re-enter your password, or enter q to quit.		12-November-2020 Thursday EST 04:26:44	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:26:44	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:26:44	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:26:44	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:26:44	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:26:44	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:26:46	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		Welcome to the Customer Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		1) Apply for a new Bank Account.		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		2) View the balance of an existing account.		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		3) Make a deposit or withdrawal to an existing account.		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		4) Transfer money to another account		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		5) Accept a money transfer		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		6) Exit the customer menu.		12-November-2020 Thursday EST 04:26:49	
+[INFO] 	com.bank.main.UserMain		I hope our service was satisfactory!
+		12-November-2020 Thursday EST 04:26:53	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:26:53	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:26:53	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:26:53	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:26:53	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:26:53	
+[INFO] 	com.bank.main.UserMain		Thank you for visiting us at Super Bank.		12-November-2020 Thursday EST 04:26:54	
+[INFO] 	com.bank.main.UserMain		Welcome to Super Bank!		12-November-2020 Thursday EST 04:27:04	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:27:04	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:27:04	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:27:04	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:27:04	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:27:04	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:27:05	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		12-November-2020 Thursday EST 04:27:09	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		Welcome to the Customer Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		1) Apply for a new Bank Account.		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		2) View the balance of an existing account.		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		3) Make a deposit or withdrawal to an existing account.		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		4) Transfer money to another account		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		5) Accept a money transfer		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		6) Exit the customer menu.		12-November-2020 Thursday EST 04:27:10	
+[INFO] 	com.bank.main.UserMain		Please enter the account ID for the account you wish to make a transaction.		12-November-2020 Thursday EST 04:27:12	
+[INFO] 	com.bank.main.UserMain		Do you wish to make a deposit or withdrawal? Enter 1 for a deposit or 2 for a withdrawal.		12-November-2020 Thursday EST 04:27:14	
+[INFO] 	com.bank.main.UserMain		How much would you like to withdraw?		12-November-2020 Thursday EST 04:27:15	
+[INFO] 	com.bank.main.UserMain		Successfully withdrew! Your new balance is 9000.00.
+		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		Welcome to the Customer Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		1) Apply for a new Bank Account.		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		2) View the balance of an existing account.		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		3) Make a deposit or withdrawal to an existing account.		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		4) Transfer money to another account		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		5) Accept a money transfer		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		6) Exit the customer menu.		12-November-2020 Thursday EST 04:27:17	
+[INFO] 	com.bank.main.UserMain		I hope our service was satisfactory!
+		12-November-2020 Thursday EST 04:27:19	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:27:20	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:27:20	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:27:20	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:27:20	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:27:20	
+[INFO] 	com.bank.main.UserMain		Please enter your username:		12-November-2020 Thursday EST 04:27:20	
+[INFO] 	com.bank.main.UserMain		Please enter your password:		12-November-2020 Thursday EST 04:27:21	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:27:22	
+[INFO] 	com.bank.main.UserMain		Welcome to the Employee Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:27:22	
+[INFO] 	com.bank.main.UserMain		1) Approve or reject an account.		12-November-2020 Thursday EST 04:27:22	
+[INFO] 	com.bank.main.UserMain		2) View a customer's bank accounts.		12-November-2020 Thursday EST 04:27:22	
+[INFO] 	com.bank.main.UserMain		3) View a log of all transactions.		12-November-2020 Thursday EST 04:27:22	
+[INFO] 	com.bank.main.UserMain		4) Exit the employee menu.		12-November-2020 Thursday EST 04:27:22	
+[INFO] 	com.bank.main.UserMain		Below is a list of all transactions:
+		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 101  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:40:12.095 Account ID: 101 Status: APPROVED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 102  Transaction Amount: 500.00 Transaction Time: 2020-11-12 03:41:18.238 Account ID: 102 Status: APPROVED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 103  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:42:02.906 Account ID: 103 Status: PENDING		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 104  Transaction Amount: 10000.00 Transaction Time: 2020-11-12 03:42:33.397 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 105  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:47:12.196 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 106  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 03:47:12.338 Account ID: 102 Status: ACCEPTED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 107  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:47:20.93 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 108  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 03:47:20.966 Account ID: 102 Status: ACCEPTED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 109  Transaction Amount: 2000.00 Transaction Time: 2020-11-12 04:22:49.378 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.dao.impl.TransactionDAOImpl		Transaction ID: 110  Transaction Amount: 1000.00 Transaction Time: 2020-11-12 04:27:17.328 Account ID: 101 Status: PROCESSED		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.main.UserMain		===================================================================		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.main.UserMain		Welcome to the Employee Menu! What would you like to do today?
+		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.main.UserMain		1) Approve or reject an account.		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.main.UserMain		2) View a customer's bank accounts.		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.main.UserMain		3) View a log of all transactions.		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.main.UserMain		4) Exit the employee menu.		12-November-2020 Thursday EST 04:27:23	
+[INFO] 	com.bank.main.UserMain		Thank you for choosing to work at Super Bank.
+		12-November-2020 Thursday EST 04:27:29	
+[INFO] 	com.bank.main.UserMain		----------------------------------------------------------------------		12-November-2020 Thursday EST 04:27:29	
+[INFO] 	com.bank.main.UserMain		Welcome to the Main Menu! Please select one of the options below.
+		12-November-2020 Thursday EST 04:27:29	
+[INFO] 	com.bank.main.UserMain		1) Enter 1 if you are a new user to Super Bank.		12-November-2020 Thursday EST 04:27:29	
+[INFO] 	com.bank.main.UserMain		2) Enter 2 if you are a returning user.		12-November-2020 Thursday EST 04:27:29	
+[INFO] 	com.bank.main.UserMain		3) Enter 3 to exit the Super Bank application.		12-November-2020 Thursday EST 04:27:29	
+[INFO] 	com.bank.main.UserMain		Thank you for visiting us at Super Bank.		12-November-2020 Thursday EST 04:27:29	

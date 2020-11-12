@@ -25,5 +25,5 @@ public class BankAccountServiceQueries {
 	
 	public static final String GETACCOUNTSFROMCUSTOMERID = "select account_id, balance from super_bank.accounts where customer_id = ?";
 	public static final String GETALLTRANSACTIONS = "select transaction_id, transaction_amount, transaction_description, transaction_time, "
-			+ "account_id, status from super_bank.transactions";
+			+ "account_id, status from super_bank.transactions order by transaction_id";
 }
